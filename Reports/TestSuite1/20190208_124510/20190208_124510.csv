@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,,,2019-02-08 12:45:19,2019-02-08 12:45:43,24.065s,FAILED
+,,,,,,
+Test Cases/calculator Test/Addition,,,2019-02-08 12:45:20,2019-02-08 12:45:32,12.022s,PASSED
+"sendRequest(findTestObject(""calculator SoAp service/Addition""))",,,2019-02-08 12:45:21,2019-02-08 12:45:28,7.392s,PASSED
+"response = sendRequestAndVerify(findTestObject(""calculator SoAp service/Addition""))",,,2019-02-08 12:45:28,2019-02-08 12:45:31,2.577s,PASSED
+"verifyElementPropertyValue(response, ""AddResponse.AddResult"", ""8"")",,,2019-02-08 12:45:31,2019-02-08 12:45:32,1.176s,PASSED
+,,,,,,
+Test Cases/getbank details,,,2019-02-08 12:45:32,2019-02-08 12:45:33,1.639s,FAILED
+"sendRequest(findTestObject(""SOAP/getBank""))",,,2019-02-08 12:45:32,2019-02-08 12:45:33,1.337s,PASSED
+sendRequest(findTestObject(null)),,,2019-02-08 12:45:33,2019-02-08 12:45:33,0.035s,FAILED
+,,,,,,
+Test Cases/ListUserscases,,,2019-02-08 12:45:33,2019-02-08 12:45:38,4.370s,PASSED
+"sendRequest(findTestObject(""Users REST service/List Users""))",,,2019-02-08 12:45:34,2019-02-08 12:45:37,2.937s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Users REST service/List Users""))",,,2019-02-08 12:45:37,2019-02-08 12:45:38,1.093s,PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Charles"")",,,2019-02-08 12:45:38,2019-02-08 12:45:38,0.031s,PASSED
+"verifyElementPropertyValue(response, ""data[2].id"", ""6"")",,,2019-02-08 12:45:38,2019-02-08 12:45:38,0.027s,PASSED
+"verifyElementsCount(response, ""data"", 3)",,,2019-02-08 12:45:38,2019-02-08 12:45:38,0.063s,PASSED
+"verifyResponseStatusCodeInRange(response, 100, 200)",,,2019-02-08 12:45:38,2019-02-08 12:45:38,0.014s,PASSED
+,,,,,,
+Test Cases/TestHTTP Methods,,,2019-02-08 12:45:38,2019-02-08 12:45:43,4.977s,PASSED
+"sendRequestAndVerify(findTestObject(""Users REST service/Create users""))",,,2019-02-08 12:45:38,2019-02-08 12:45:40,1.418s,PASSED
+"sendRequestAndVerify(findTestObject(""Users REST service/deleteUsers""))",,,2019-02-08 12:45:40,2019-02-08 12:45:41,0.975s,PASSED
+"sendRequestAndVerify(findTestObject(""Users REST service/List Users""))",,,2019-02-08 12:45:41,2019-02-08 12:45:42,1.210s,PASSED
+"sendRequestAndVerify(findTestObject(""Users REST service/Update users""))",,,2019-02-08 12:45:42,2019-02-08 12:45:43,1.048s,PASSED

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="22" tests="4" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="4" failures="0" errors="0" time="22" timestamp="2019-02-08 12:04:54" hostname="TH-Seema - DESKTOP-3ARNFU0" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TH-Seema\\Katalon Studio\\API testing\\API Demo Project 1\\Reports\\TestSuite1\\20190208_120445"/>
+         <property name="logFiles" value="C:\\Users\\TH-Seema\\Katalon Studio\\API testing\\API Demo Project 1\\Reports\\TestSuite1\\20190208_120445\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TH-Seema - DESKTOP-3ARNFU0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/calculator Test/Addition" classname="Test Cases/calculator Test/Addition" status="PASSED">
+         <system-out><![CDATA[2019-02-08 12:04:55 - [TEST_CASE][PASSED] - Test Cases/calculator Test/Addition: Test Cases/calculator Test/Addition
+
+2019-02-08 12:04:56 - [TEST_STEP][PASSED] - sendRequest(findTestObject("calculator SoAp service/Addition")): Send request successfully
+
+2019-02-08 12:05:02 - [MESSAGE][INFO] - HAR: C:\Users\TH-Seema\Katalon Studio\API testing\API Demo Project 1\Reports\TestSuite1\20190208_120445\requests\main\0.har
+
+2019-02-08 12:05:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-08 12:05:02 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("calculator SoAp service/Addition")): Send request and verify the response successfully
+
+2019-02-08 12:05:04 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-02-08 12:05:04 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-02-08 12:05:04 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-02-08 12:05:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-02-08 12:05:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-08 12:05:04 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-02-08 12:05:04 - [TEST_STEP][PASSED] - getResponseText()).contains("AddResult"): null
+
+2019-02-08 12:05:05 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-02-08 12:05:05 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-02-08 12:05:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", "8"): Verify element property value successfully
+
+2019-02-08 12:05:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getbank details" classname="Test Cases/getbank details" status="PASSED">
+         <system-out><![CDATA[2019-02-08 12:05:05 - [TEST_CASE][PASSED] - Test Cases/getbank details: Test Cases/getbank details
+
+2019-02-08 12:05:06 - [TEST_STEP][PASSED] - sendRequest(findTestObject("SOAP/getBank")): Send request successfully
+
+2019-02-08 12:05:07 - [MESSAGE][INFO] - HAR: C:\Users\TH-Seema\Katalon Studio\API testing\API Demo Project 1\Reports\TestSuite1\20190208_120445\requests\main\1.har
+
+2019-02-08 12:05:07 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ListUserscases" classname="Test Cases/ListUserscases" status="PASSED">
+         <system-out><![CDATA[2019-02-08 12:05:07 - [TEST_CASE][PASSED] - Test Cases/ListUserscases: Test Cases/ListUserscases
+
+2019-02-08 12:05:07 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Users REST service/List Users")): Send request successfully
+
+2019-02-08 12:05:09 - [MESSAGE][INFO] - HAR: C:\Users\TH-Seema\Katalon Studio\API testing\API Demo Project 1\Reports\TestSuite1\20190208_120445\requests\main\2.har
+
+2019-02-08 12:05:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-08 12:05:09 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Users REST service/List Users")): Send request and verify the response successfully
+
+2019-02-08 12:05:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-02-08 12:05:11 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-02-08 12:05:11 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-02-08 12:05:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-02-08 12:05:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-08 12:05:11 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-02-08 12:05:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-02-08 12:05:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-02-08 12:05:11 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-02-08 12:05:11 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-02-08 12:05:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-02-08 12:05:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-02-08 12:05:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].id", "6"): Verify element property value successfully
+
+2019-02-08 12:05:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-02-08 12:05:11 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data", 3): Verify element count successfully
+
+2019-02-08 12:05:11 - [MESSAGE][PASSED] - Verify element count successfully
+
+2019-02-08 12:05:11 - [TEST_STEP][PASSED] - verifyResponseStatusCodeInRange(response, 100, 200): Verify response status code successfully
+
+2019-02-08 12:05:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestHTTP Methods" classname="Test Cases/TestHTTP Methods" status="PASSED">
+         <system-out><![CDATA[2019-02-08 12:05:11 - [TEST_CASE][PASSED] - Test Cases/TestHTTP Methods: Test Cases/TestHTTP Methods
+
+2019-02-08 12:05:11 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Users REST service/Create users")): Send request and verify the response successfully
+
+2019-02-08 12:05:13 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-02-08 12:05:13 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-02-08 12:05:13 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-02-08 12:05:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2019-02-08 12:05:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-08 12:05:13 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+2019-02-08 12:05:13 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-02-08 12:05:13 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-02-08 12:05:13 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Users REST service/deleteUsers")): Send request and verify the response successfully
+
+2019-02-08 12:05:14 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-02-08 12:05:14 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-02-08 12:05:14 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-02-08 12:05:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2019-02-08 12:05:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-08 12:05:14 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null
+
+2019-02-08 12:05:14 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-02-08 12:05:14 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-02-08 12:05:14 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Users REST service/List Users")): Send request and verify the response successfully
+
+2019-02-08 12:05:15 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-02-08 12:05:15 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-02-08 12:05:15 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-02-08 12:05:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-02-08 12:05:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-08 12:05:15 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-02-08 12:05:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-02-08 12:05:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-02-08 12:05:15 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-02-08 12:05:15 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-02-08 12:05:15 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Users REST service/Update users")): Send request and verify the response successfully
+
+2019-02-08 12:05:16 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-02-08 12:05:16 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-02-08 12:05:16 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-02-08 12:05:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-02-08 12:05:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-08 12:05:16 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-02-08 12:05:16 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-02-08 12:05:16 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-08 12:04:54 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/TestHTTP Methods]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,,,2019-02-08 12:53:47,2019-02-08 12:54:03,16.552s,PASSED
+,,,,,,
+Test Cases/ListUserscases,,,2019-02-08 12:53:48,2019-02-08 12:54:03,15.601s,PASSED
+"sendRequest(findTestObject(""Users REST service/List Users""))",,,2019-02-08 12:53:49,2019-02-08 12:54:01,12.066s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Users REST service/List Users""))",,,2019-02-08 12:54:01,2019-02-08 12:54:03,2.418s,PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Charles"")",,,2019-02-08 12:54:03,2019-02-08 12:54:03,0.052s,PASSED
+"verifyElementPropertyValue(response, ""data[2].id"", ""6"")",,,2019-02-08 12:54:03,2019-02-08 12:54:03,0.056s,PASSED
+"verifyElementsCount(response, ""data"", 3)",,,2019-02-08 12:54:03,2019-02-08 12:54:03,0.064s,PASSED
+"verifyResponseStatusCodeInRange(response, 100, 200)",,,2019-02-08 12:54:03,2019-02-08 12:54:03,0.044s,PASSED
